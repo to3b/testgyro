@@ -1,0 +1,6 @@
+<h1></h1>
+<script>
+    window.addEventListener("deviceorientation", (event) => {
+    document.querySelector("h1").innerText = `${event.alpha} : ${event.beta} : ${event.gamma}`;
+});
+</script>
